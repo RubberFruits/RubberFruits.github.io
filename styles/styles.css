@@ -187,11 +187,13 @@ body::after{
    
    @media(max-width:590px){
       .btn-off {
-         content: "X";
+         width: 50px;
+         height: 50px;
        
       }
       .btn-on{
-         content: "V";
+         width: 50px;
+          height: 50px;
       }
    }
 
