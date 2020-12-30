@@ -184,5 +184,15 @@ body::after{
       flex-direction: column;
       margin-left: -30px;
    }
+   
+   @media(max-width:590px){
+      .btn-off {
+         content: "X";
+       
+      }
+      .btn-on{
+         content: "V";
+      }
+   }
 
 }
